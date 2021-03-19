@@ -40,8 +40,8 @@ Currently this module loads on demand based on the api calls
  API call | Use
  | :--| :-- |
  getAllData | Iters all the city store in city table and fetch accident details of that city
- getBorough/<str:borough> | Ftches data only for that borough from socarata/soda api
- getBoroughFromDb/<str:borough>/<int:city_id> | Ftches data only for given borugh and given city from database (useful when we have multiple cities)
+ getBorough/<str:borough> | Fetches data only for that borough from socarata/soda api
+ getBoroughFromDb/<str:borough>/<int:city_id> | Fetches data only for given borugh and given city from database (useful when we have multiple cities)
  getCollisionDetailsFromDb | Get all accident details where cyclist was injured or killed
  getBikeParkingInfo | Get last one year bike parking location details from server and store it into mysql db
  getBikeParkingDetailsFromDb | Get all bike parking location from mysql db
