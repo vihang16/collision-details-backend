@@ -27,16 +27,13 @@ Currently this module loads on demand based on the api calls
 
 
 ## Apps
-  1.collision_data:
-  
-    This app respnsible for getting accident data for different cities and store into mysql table and retrieve it on api calls
-    **Models (db tables)**
-    City: This contains list of city to fetch collsion data ( currently NY )
-    CollisionDetails: it iterate over list of cities and gets data accident occured in that city and performs upsert query
-  2. bike_parking_info:
-    This app responsible for storing and retriving bike start and end location details
-    **Models (db tables)**
-    BikeParkingInfo: this Model is responsible for storing bike start/end info ( location name, coordinates etc)
+  1.collision_data:<br/>This app respnsible for getting accident data for different cities and store into mysql table and retrieve it on api calls<br/>
+    **Models (db tables)**<br/>
+    *City*:: This contains list of city to fetch collsion data ( currently NY )<br/>
+    *CollisionDetails*: it iterate over list of cities and gets data accident occured in that city and performs upsert query<br/>
+  2. bike_parking_info:<br/>This app responsible for storing and retriving bike start and end location details<br/>
+    **Models (db tables)** <br/>
+    *BikeParkingInfo* : this Model is responsible for storing bike start/end info ( location name, coordinates etc)
      
 
 ## Rest API endpoints
